@@ -8,13 +8,14 @@
 body {
   padding-top: 0;
   position: relative;
+  background-color: #FEFEFE;
 }
 section {
   padding: 50px 0;
 }
 /* bootstrap overrides */
 .navbar-default .navbar-nav>li>a {
-  color: #9c0202;
+  color: #AE0C1C;
   font-weight: 700;
 }
 .nav>li>a {
@@ -29,6 +30,10 @@ section {
   width: 100%;
   height:800px;
   padding-top: 300px;
+  background-color: transparent;
+  background-image: url('./../img/shutterstock.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }
 .text-logo {
   position: absolute;
@@ -38,7 +43,7 @@ section {
   line-height: 1;
 }
 .section-title {
-  color: #9c0202;
+  color: #AE0C1C;
   font-weight: 900;
   font-size: 25px;
   text-transform: uppercase;
@@ -51,9 +56,204 @@ section {
 .jumboman {
   width: 100%;
   height: 450px;
-  background-color: #eee;
+  background-color: #fff;
+}
+.jumbo-left {
+  width: 50%;
+  height: 450px;
+}
+.jumbo-left .peek-book {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-color: transparent;
+}
+.jumbo-right {
+  padding: 170px;
+}
+.tron-left {
+  padding-left: 150px;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+.tron-right {
+  background-color: #AE0C1C;
+  padding-top: 162px;
+  padding-bottom: 162px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.tron-title {
+  color: #EEC923;
+  font-weight: 900;
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.text-white {
+  color: #fff;
+  line-height: 25px;
+}
+.text-red {
+  color: #AE0C1C;
+}
+.pull-right {
+  text-align: right;
+}
+.pull-left {
+  text-align: left;
+}
+.copyright {
+  color: #AE0C1C;
+  font-weight: 600;
+}
+footer {
+  width: 100%;
+  height: 608px;
+  padding-top: 165px;
+  background-color: #e8b813;
 }
 
+@media (max-width: 640px) {
+  .teaser {
+    padding-top: 20px;
+    height: 200px;
+  }
+  .text-logo {
+    font-size: 20px;
+    padding-top: 65px;
+    line-height: 0.5;
+  }
+  .section-title {
+    font-size: 17px;
+  }
+}
+section.about-us {
+  margin: 48px 255px 143px;
+}
+section.our-vision {
+  box-shadow: 0 10px 50px rgba(0,0,0,0.16);
+  background-color: #AE0C1C;
+  margin: 0 270px 150px;
+  padding: 0 !important;
+}
+section.our-vision .tron-left {
+  margin: 0 -15px;
+  background-color: #ffffff;
+}
+section.our-vision .tron-right {
+  padding: 106px 60px 0;
+  margin-left: -15px;
+}
+section.our-mission {
+  height: 494px;
+  background: url("./../img/002.png") no-repeat;
+  background-position-y: -441px;
+  padding-top: 214px;
+}
+section.our-mission .section-title, section.our-mission .section-content {
+  padding-left: 81px;
+}
+section.our-team {
+  padding: 187px 160px 180px 154px;
+}
+div.our-team-box {
+  width: 550px;
+}
+div.team-members {
+  margin-top: 76px;
+  padding: 42px 0 42px 60px;
+  background-color: #AE0C1C;
+  border-radius: 200px;
+}
+div.image-holder-1 {
+  background-color: #fff;
+  border-radius: 200px;
+  width: 262px;
+  height: 262px;
+  margin-right: 65px;
+}
+div.image-holder-2 {
+  background-color: #fff;
+  border-radius: 200px;
+  width: 262px;
+  height: 262px;
+  margin-right: 65px;
+}
+div.image-holder-3 {
+  background-color: #fff;
+  border-radius: 200px;
+  width: 262px;
+  height: 262px;
+}
+h1.text-footer {
+  color: #AE0C1C;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+input.input-item {
+  width: 369px;
+  background: transparent;
+  border-color: #e8b813;
+  border-bottom-color: #AE0C1C;
+  border-top: none;
+  border-left: none;
+}
+input.input-item-1 {
+  width: 749px;
+  background: transparent;
+  border-color: #e8b813;
+  border-bottom-color: #AE0C1C;
+  border-top: none;
+  border-left: none;
+}
+div.p-t-50 {
+  padding-top: 50px;
+}
+div.p-t-40 {
+  padding-top: 40px;
+}
+div.p-t-150 {
+  padding-top: 150px;
+}
+hr {
+  border-top: 1px solid #993300;
+}
+button.send-now {
+  border-radius: 20px;
+  color: #AE0C1C;
+  background: transparent;
+  border-color: #AE0C1C;
+  text-shadow: none;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color:    #AE0C1C;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+ color:    #AE0C1C;
+ opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+ color:    #AE0C1C;
+ opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color:    #AE0C1C;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+ color:    #AE0C1C;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+ color:    #AE0C1C;
+}
+div#root {
+  max-width: 1349px;
+  margin: 0 auto;
+}
 
 
 
