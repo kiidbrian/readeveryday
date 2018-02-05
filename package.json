@@ -8,6 +8,11 @@
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.0"
   },
+  "devDependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "path": "^0.12.7"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
