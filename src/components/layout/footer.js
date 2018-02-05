@@ -17,15 +17,15 @@ class Footer extends Component {
           <div className="col-md-8">
             <div className="row">
                 <div className="col-md-6">
-                  <input id="name" className="input-item" placeholder="Your Name" size=""/>
+                  <input id="name" className="input-item" placeholder="Your Name" size="" required/>
                 </div>
                 <div className="col-md-6">
-                  <input id="subject" className="input-item" placeholder="Subject" size=""/>
+                  <input id="subject" className="input-item" placeholder="Subject" size="" required/>
                 </div>
             </div>
             <div className="row">
               <div className="col-md-12 p-t-50">
-                <input id="message" className="input-item-1" placeholder="Say hello" size=""/>
+                <textarea id="message" className="textarea-item" placeholder="Say hello!" size="" required/>
               </div>
             </div>
             <div className="row">
@@ -40,7 +40,7 @@ class Footer extends Component {
           <hr />
           <div className="row">
             <div className="col-md-6">
-              <p className="copyright">All Rights Reserved &copy; ReadEveryday (RED) 2017-2018</p>
+              <p className="copyright">All Rights Reserved &copy; readeveryday (RED) 2017-2018</p>
             </div>
             <div className="col-md-6">
               <ul className="list-inline pull-right text-red">

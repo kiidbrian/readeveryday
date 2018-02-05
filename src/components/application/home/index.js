@@ -30,7 +30,7 @@ class Home extends Component {
         <div className="row">
         <div className="col-md-6">
             <div className="tron-left">
-              <img src="img/shutterstock_4.png" />
+              <img className="tron-image" src="img/shutterstock_4.png" />
             </div>
           </div>
           <div className="col-md-6">
@@ -53,8 +53,8 @@ class Home extends Component {
             <div className="col-md-5 col-md-offset-7">
               <h1 className="section-title">Our Mission</h1>
               <p className="section-content">
-                Our mission is to increase reading interest
-                among kids in every corner of the globle
+                Our mission is to increase reading interest <br/>
+                among kids in every corner of the globe
               </p>
             </div>
           </div>

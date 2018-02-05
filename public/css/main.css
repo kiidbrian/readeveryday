@@ -135,17 +135,22 @@ section.about-us {
 }
 section.our-vision {
   box-shadow: 0 10px 50px rgba(0,0,0,0.16);
-  background-color: #AE0C1C;
+  background-color: #FFFFFF;
   margin: 0 270px 150px;
   padding: 0 !important;
 }
 section.our-vision .tron-left {
   margin: 0 -15px;
+  position: relative;
   background-color: #ffffff;
 }
 section.our-vision .tron-right {
-  padding: 106px 60px 0;
+  padding: 85px 60px;
   margin-left: -15px;
+}
+img.tron-image {
+  position: absolute;
+  margin-top: -80px;
 }
 section.our-mission {
   height: 494px;
@@ -202,13 +207,21 @@ input.input-item {
   border-top: none;
   border-left: none;
 }
-input.input-item-1 {
-  width: 749px;
+textarea.textarea-item {
+  margin: 0px;
+  width: 748px;
+  height: 67px;
   background: transparent;
-  border-color: #e8b813;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
   border-bottom-color: #AE0C1C;
-  border-top: none;
-  border-left: none;
+}
+.textarea-item:focus {
+  outline: 0;
+}
+.input-item:focus {
+  outline: 0;
 }
 div.p-t-50 {
   padding-top: 50px;
@@ -228,6 +241,18 @@ button.send-now {
   background: transparent;
   border-color: #AE0C1C;
   text-shadow: none;
+}
+.send-now:hover {
+  background-color: #AE0C1C;
+  color: #ffffff;
+  border-color: #AE0C1C;
+  /* transition: 0.8s; */
+}
+.send-now:focus, .btn-default:focus, .btn-default:active {
+  outline: 0;
+  background-color: #AE0C1C;
+  color: #ffffff;
+  border-color: #AE0C1C;
 }
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
   color:    #AE0C1C;
