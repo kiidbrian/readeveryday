@@ -1,5 +1,4 @@
 import React,{Component} from 'react';
-import {Link} from 'react-router-dom';
 
 class Footer extends Component {
   render() {
@@ -47,7 +46,7 @@ class Footer extends Component {
           <hr />
           <div className="row">
             <div className="col-md-6">
-              <p className="copyright">All Rights Reserved &copy; readeveryday (RED) 2017-2018</p>
+              <p className="copyright">&copy; Read Every day. All rights reserved (RED) 2017-2018</p>
             </div>
             <div className="col-md-6">
               <ul className="list-inline pull-right">

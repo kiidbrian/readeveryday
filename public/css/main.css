@@ -11,7 +11,7 @@ body {
   background-color: #FEFEFE;
 }
 section {
-  padding: 50px 0;
+  padding: 75px 0;
 }
 /* bootstrap overrides */
 .navbar-default .navbar-nav>li>a {
@@ -117,9 +117,18 @@ section {
   font-weight: 600;
 }
 .logo-image {
-  width: 73px;
+  width: 100px;
   background-color: transparent;
   margin-left: 31px;
+}
+.justify {
+  text-align: justify;
+}
+.member-image-container {
+  width: 50px;
+}
+.member-image {
+  position: absolute;
 }
 footer {
   width: 100%;
@@ -169,12 +178,13 @@ section.our-mission {
   background: url("./../img/002.png") no-repeat;
   background-position-y: -441px;
   padding-top: 214px;
+  margin-bottom: 50px;
 }
 section.our-mission .section-title, section.our-mission .section-content {
   padding-left: 81px;
 }
 section.our-team {
-  padding: 187px 160px 180px 154px;
+  padding: 75px 160px 180px 154px;
 }
 div.our-team-box {
   width: 550px;
@@ -184,20 +194,23 @@ div.team-members {
   padding: 42px 0 42px 60px;
   background-color: #AE0C1C;
   border-radius: 200px;
+  width: 1031px;
 }
 div.image-holder-1 {
   background-color: #fff;
   border-radius: 200px;
   width: 262px;
   height: 262px;
-  margin-right: 65px;
+  margin-right: 55px;
+  position:relative;
+  cursor: pointer;
 }
 div.image-holder-2 {
   background-color: #fff;
   border-radius: 200px;
   width: 262px;
   height: 262px;
-  margin-right: 65px;
+  margin-right: 55px;
 }
 div.image-holder-3 {
   background-color: #fff;
@@ -234,6 +247,9 @@ textarea.textarea-item {
 }
 .input-item:focus {
   outline: 0;
+}
+.m-t-15 {
+  margin-top: 15px;
 }
 div.p-t-50 {
   padding-top: 50px;
