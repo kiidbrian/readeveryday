@@ -24,6 +24,13 @@ section {
 .navbar-default {
   opacity: 0.9;
 }
+.dropdown-menu li:hover .sub-menu {
+  visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
 /* application styles */
 .teaser {
   position: relative;
@@ -51,7 +58,7 @@ section {
   margin-bottom: 20px;
 }
 .section-content p {
-  line-height: 1.5;
+  line-height: 1.7;
 }
 .jumboman {
   width: 100%;
@@ -108,6 +115,11 @@ section {
 .copyright {
   color: #AE0C1C;
   font-weight: 600;
+}
+.logo-image {
+  width: 73px;
+  background-color: transparent;
+  margin-left: 31px;
 }
 footer {
   width: 100%;

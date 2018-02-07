@@ -4,13 +4,20 @@ import {Link} from 'react-router-dom';
 class Footer extends Component {
   render() {
     return(
-      <footer>
+      <footer id="contact-section">
         <div className="container">
           <div className="col-md-4">
             <h1 className="text-footer">Contact</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            <p className="text-red">
+              220 Ann Dr <br/>
+              Middletown DE <br/>
+              19709 <br/>
+              USA
+            </p>
+            <p className="text-red">
+              Tel: +13028839683 <br/>
+              Email: readeverydayinc@gmail.com <br/>
+              Web: www.readeverydayinc.org
             </p>
           </div>
 
@@ -43,11 +50,19 @@ class Footer extends Component {
               <p className="copyright">All Rights Reserved &copy; readeveryday (RED) 2017-2018</p>
             </div>
             <div className="col-md-6">
-              <ul className="list-inline pull-right text-red">
-                  <li><i className="fa fa-facebook-f"/></li>
-                  <li><i className="fa fa-twitter"/></li>
-                  <li><i className="fa fa-google-plus"/></li>
-                  <li><i className="fa fa-instagram"/></li>
+              <ul className="list-inline pull-right">
+                  <li>
+                    <a href="https://www.facebook.com/Readeverydayinc/">
+                      <i className="fa fa-facebook-f text-red"/></a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/readeverydayinc">
+                      <i className="fa fa-twitter text-red"/></a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/readeverydayinc/">
+                      <i className="fa fa-instagram text-red"/></a>
+                  </li>
               </ul>
             </div>
           </div>
