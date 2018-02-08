@@ -35,7 +35,7 @@ class Header extends Component {
             <ul className="nav navbar-nav m-t-15" id="main-nav">
               <li><a href="#navbar-section">HOME <span className="sr-only">(current)</span></a></li>
               <li className="dropdown">
-                <a className="dropdown-toggle" data-toggle="dropdown">WHO WE ARE <span className="caret"></span></a>
+                <a href="#about-us-section" className="dropdown-toggle" data-toggle="dropdown">WHO WE ARE <span className="caret"></span></a>
                 <ul className="dropdown-menu">
                   <li><a href="#about-us-section">ABOUT</a></li>
                   <li><a href="#our-vision-section">VISION</a></li>
@@ -47,8 +47,8 @@ class Header extends Component {
                 <a className="dropdown-toggle" data-toggle="dropdown">WHY AND HOW <span className="caret"></span></a>
                 <ul className="dropdown-menu">
                   <li><a href="">WHY RED</a></li>
-                  <li><a href="">HOW WE DO WHAT WE DO</a></li>
-                  <li><a href="">HOW WE MEASURE PROGRESS</a></li>
+                  <li><a href="#how-red-section">HOW RED</a></li>
+                  <li><a href="">MEASURE RED</a></li>
                 </ul>
               </li>
               <li className="dropdown">
@@ -59,7 +59,6 @@ class Header extends Component {
                   <li><a href="#partner-section">PARTNER</a></li>
                 </ul>
               </li>
-              <li><a href="#contact-section"><i className="fa fa-phone"></i></a></li>
               <li><a href="#"><i className="fa fa-sign-in"></i> &nbsp;LOGIN</a></li>
             </ul>
           </div>

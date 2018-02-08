@@ -117,6 +117,28 @@ class Home extends Component {
           </div>
 
         </section>
+
+        <section className="how-red" id="how-red-section">
+          <div className="row">
+            <div className="col-md-6">
+              <div className="how-left">
+                <img className="how-image" src="img/003.jpg" id="our-vision-section" alt="why" />
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div className="how-right">
+              <h1 className="tron-title">How Red</h1>
+              <p className="text-white font-styles justify">
+              RED Leverages a highly efficient literacy program reaching many kids and their families by placing a mobile RED
+              Lending Library kiosk (a kid’s friendly bookshelf) in every classroom/community and fostering family engagement
+              through the RED Knowledge Bank (a consolidated vocabulary guide by kids for kids). In partnership with book publishers,
+              distributors and volunteers, we are efficiently able to deliver literacy to many kids around the globe.
+              Effectively we do this through:
+              </p>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     );
   }

@@ -14,8 +14,9 @@ class Footer extends Component {
               USA
             </p>
             <p className="text-red">
-              Tel: +13028839683 <br/>
-              Email: readeverydayinc@gmail.com <br/>
+              Tel: +1302 442 0850 <br/>
+              Tel: +1302 883 9683 <br/>
+              Email: info@readeverydayinc.org <br/>
               Web: www.readeverydayinc.org
             </p>
           </div>
@@ -42,7 +43,7 @@ class Footer extends Component {
           </div>
         </div>
 
-        <div className="container p-t-150">
+        <div className="container p-t-115">
           <hr />
           <div className="row">
             <div className="col-md-6">
